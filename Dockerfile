@@ -1,6 +1,6 @@
 FROM mpidlisnyi/elasticsearch:2.0
 MAINTAINER maksim@nightbook.info
-LABEL version="2.0"
+LABEL version="0.1.1"
 
 RUN apt-get update
 RUN apt-get install --no-install-recommends --no-install-suggests -y ruby ruby-dev rubygems
